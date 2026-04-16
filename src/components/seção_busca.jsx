@@ -1,10 +1,10 @@
 function Seção_busca_main() {
     return (
         <section id="busca" className="flex justify-center   ">
-            <div className="bg-gray-500 h-72 w-250 flex flex-col gap-3 rounded shadow ">
+            <div className="bg-white h-72 w-250 flex flex-col gap-3 rounded shadow ">
 
 
-                <div className="mt-5 ml-10 font-bold text-2xl text-gray-300">
+                <div className="mt-5 ml-10 font-bold text-2xl text-gray-500">
                     <h1> Busque por SUV até 100 mil</h1>
 
                 </div>

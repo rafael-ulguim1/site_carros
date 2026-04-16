@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header>
-            <section id="topo_site" className="bg-gray-500 flex h-20 items-center sticky top-20 ">
+            <section id="topo_site" className=" bg-white flex h-20 items-center sticky top-20 ">
                 <div className="flex-1">
                     <img src="/src/assets/logo.png" className="h-15 ml-3"></img>
                 </div>

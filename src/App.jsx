@@ -6,14 +6,14 @@ function App() {
 
 
   return (
-    <>
+    <div className="bg-gray-200">
 
       <Header
       />
       <Main
       />
 
-    </>
+    </div>
   )
 }
 
