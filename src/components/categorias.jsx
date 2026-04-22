@@ -1,6 +1,6 @@
 function Categorias() {
     return (
-        <section id="soluçoes" className="mt-10 flex justify-center flex-col  ">
+        <section id="categorias" className="mt-10 flex justify-center flex-col  ">
             <div className="flex ml-80">
                 <h1 className="font-bold text-gray-600 text-xl"> Categorias </h1>
             </div>
