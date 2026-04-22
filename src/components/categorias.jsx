@@ -5,7 +5,7 @@ function Categorias() {
                 <h1 className="font-bold text-gray-600 text-xl"> Categorias </h1>
             </div>
             <div className=" flex gap-5 mt-4 justify-center mb-7">
-                <button className="bg-white h-50 w-58 rounded-2xl border-1 border-gray-300"
+                <button className="bg-white h-55 w-54 rounded-2xl border-1 border-gray-300"
                     style={{
                         backgroundImage: "url('/src/assets/eletricos.jpg')",
                         backgroundSize: 'cover',      // Faz a imagem cobrir todo o espaço sem sobrar buracos
@@ -19,7 +19,7 @@ function Categorias() {
                     </div>
 
                 </button>
-                <button className="bg-white h-50 w-58 rounded-2xl border-1 border-gray-300"
+                <button className="bg-white  h-55 w-54 rounded-2xl border-1 border-gray-300"
                     style={{
                         backgroundImage: "url('/src/assets/hatches.jfif')",
                         backgroundSize: 'cover',      // Faz a imagem cobrir todo o espaço sem sobrar buracos
@@ -34,7 +34,7 @@ function Categorias() {
 
 
                 </button>
-                <button className="bg-white h-50 w-58 rounded-2xl border-1 border-gray-300"
+                <button className="bg-white  h-55 w-54 rounded-2xl border-1 border-gray-300"
                     style={{
                         backgroundImage: "url('/src/assets/picapes.jpg')",
                         backgroundSize: 'cover',      // Faz a imagem cobrir todo o espaço sem sobrar buracos
@@ -48,7 +48,7 @@ function Categorias() {
                     </div>
 
                 </button>
-                <button className="bg-white h-50 w-58 rounded-2xl border-1 border-gray-300"
+                <button className="bg-white  h-55 w-54 rounded-2xl border-1 border-gray-300"
                     style={{
                         backgroundImage: "url('/src/assets/sedans.jfif')",
                         backgroundSize: 'cover',      // Faz a imagem cobrir todo o espaço sem sobrar buracos
@@ -63,7 +63,7 @@ function Categorias() {
 
 
                 </button>
-                <button className="bg-white h-50 w-58 rounded-2xl border-1 border-gray-300"
+                <button className="bg-white  h-55 w-54 rounded-2xl border-1 border-gray-300"
                     style={{
                         backgroundImage: "url('/src/assets/suvs.jfif')",
                         backgroundSize: 'cover',      // Faz a imagem cobrir todo o espaço sem sobrar buracos
