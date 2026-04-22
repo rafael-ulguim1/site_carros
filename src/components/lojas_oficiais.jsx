@@ -3,7 +3,7 @@ function Lojas_oficiais() {
         <section id="lojas_oficiais" className="mt-15 flex justify-center ">
             <div className="bg-gray-200  h-72 w-250">
                 <div>
-                    <h1 className="font-bold text-gray-600"> Lojas Oficiais </h1>
+                    <h1 className="font-bold text-gray-600 text-xl"> Lojas Oficiais </h1>
 
                 </div>
                 <div className="flex mt-4 gap-15 ">
