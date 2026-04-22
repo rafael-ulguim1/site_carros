@@ -4,7 +4,7 @@ function Categorias() {
             <div className="flex ml-80">
                 <h1 className="font-bold text-gray-600 text-xl"> Categorias </h1>
             </div>
-            <div className=" flex gap-5 mt-4 justify-center mb-7">
+            <div className=" flex gap-3 mt-4 justify-center mb-7">
                 <button className="bg-white h-55 w-54 rounded-2xl border-1 border-gray-300"
                     style={{
                         backgroundImage: "url('/src/assets/eletricos.jpg')",
