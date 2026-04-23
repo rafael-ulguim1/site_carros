@@ -4,6 +4,7 @@ import Lojas_oficiais from "./lojas_oficiais"
 import Solucoes from "./soluções"
 import Categorias from "./categorias"
 import Noticias from "./noticias"
+import ValenteMotors from "./valentemotors"
 function Main() {
     return (
         <main>
@@ -18,6 +19,8 @@ function Main() {
             <Categorias
             />
             <Noticias
+            />
+            <ValenteMotors
             />
         </main>
     )
