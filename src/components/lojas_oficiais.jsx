@@ -1,4 +1,4 @@
-function Lojas_oficiais() {
+function Lojas_oficiais(props) {
     return (
         <section id="lojas_oficiais" className="mt-15 flex justify-center ">
             <div className="bg-gray-200  h-72 w-250">
