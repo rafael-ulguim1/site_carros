@@ -3,7 +3,7 @@ function Header() {
         <header>
             <section id="topo_site" className=" bg-white flex h-20 items-center sticky top-20 ">
                 <div className="flex-1">
-                    <img src="/src/assets/logo.png" className="h-15 ml-3"></img>
+                    <img src="/src/assets/main/logo.png" className="h-15 ml-3"></img>
                 </div>
                 <nav className="flex gap-4 ">
                     <h3> Comprar </h3>
