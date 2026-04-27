@@ -52,28 +52,28 @@ const solucoesEmpresa = [
 const categoriasCarros = [
   {
     id: 1,
-    nome: "Hatch",
-    imagem: "/src/assets/categorias/hatch.png"
+    nome: "Elétricos",
+    imagem: "/src/assets/categorias/eletricos.jpg"
   },
   {
     id: 2,
-    nome: "Sedan",
-    imagem: "/src/assets/categorias/sedan.png"
+    nome: "Hatches",
+    imagem: "/src/assets/categorias/hatches.jfif"
   },
   {
     id: 3,
-    nome: "SUV",
-    imagem: "/src/assets/categorias/suv.png"
+    nome: "Picapes",
+    imagem: "/src/assets/categorias/picapes.jpg"
   },
   {
     id: 4,
-    nome: "Picape",
-    imagem: "/src/assets/categorias/picape.png"
+    nome: "Sedans",
+    imagem: "/src/assets/categorias/sedans.jfif"
   },
   {
     id: 5,
-    nome: "Elétricos",
-    imagem: "/src/assets/categorias/eletricos.png"
+    nome: "Suvs",
+    imagem: "/src/assets/categorias/suvs.jfif"
   }
 ];
 
@@ -86,7 +86,7 @@ const noticiasDestaque = [
     categoria: "Motos",
     autor: {
       nome: "Ricardo Silva",
-      foto: "/src/assets/autores/ricardo.jpg"
+      foto: "/src/assets/autores/perfil_news.png"
     }
   },
   {
@@ -97,7 +97,7 @@ const noticiasDestaque = [
     categoria: "Lançamentos",
     autor: {
       nome: "Ana Beatriz",
-      foto: "/src/assets/autores/ana.jpg"
+      foto: "/src/assets/autores/perfil_news.png"
     }
   },
   {
@@ -108,40 +108,40 @@ const noticiasDestaque = [
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/marcos.jpg"
+      foto: "/src/assets/autores/perfil_news.png"
     }
   },
   {
     id: 4,
     titulo: "Ultimas notícias",
     descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-    imagemNoticia: "/src/assets/noticia3.jpg",
+    imagemNoticia: "/src/assets/noticia4.webp",
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/marcos.jpg"
+      foto: "/src/assets/autores/perfil_news.png"
     }
   },
   {
     id: 5,
     titulo: "Ultimas notícias",
     descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-    imagemNoticia: "/src/assets/noticia3.jpg",
+    imagemNoticia: "/src/assets/noticia5.jfif",
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/marcos.jpg"
+      foto: "/src/assets/autores/perfil_news.png"
     }
   },
   {
     id: 6,
     titulo: "Ultimas notícias",
     descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-    imagemNoticia: "/src/assets/noticia3.jpg",
+    imagemNoticia: "/src/assets/noticia6.jfif",
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/marcos.jpg"
+      foto: "/src/assets/autores/perfil_news.png"
     }
   },
 
