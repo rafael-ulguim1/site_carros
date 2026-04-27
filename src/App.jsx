@@ -26,26 +26,26 @@ const solucoesEmpresa = [
   {
     id: 1,
     titulo: "Financiamento Facilitado",
-    descricao: "Temos parcerias com os principais bancos para garantir as melhores taxas do mercado para você.",
-    imagem: "/src/assets/solucoes/financiamento.svg"
+    descricao: "as melhores taxas do mercado para você.",
+    imagem: "/src/assets/soluçoes/soluções1.jpg"
   },
   {
     id: 2,
     titulo: "Seguro Auto",
-    descricao: "Saia da loja com seu veículo protegido. Opções de cobertura completa para sua total tranquilidade.",
-    imagem: "/src/assets/solucoes/seguro.svg"
+    descricao: " Opções de cobertura completa para sua total tranquilidade.",
+    imagem: "/src/assets/soluçoes/soluçoes2.png"
   },
   {
     id: 3,
     titulo: "Oficina Especializada",
-    descricao: "Manutenção preventiva e corretiva com peças originais e profissionais certificados pela fábrica.",
-    imagem: "/src/assets/solucoes/oficina.svg"
+    descricao: "profissionais certificados pela fábrica.",
+    imagem: "/src/assets/soluçoes/soluções3.png"
   },
   {
     id: 4,
     titulo: "Test-drive Premium",
-    descricao: "Agende uma experiência de condução exclusiva e conheça cada detalhe do seu futuro carro.",
-    imagem: "/src/assets/solucoes/testdrive.svg"
+    descricao: " conheça cada detalhe do seu futuro carro.",
+    imagem: "/src/assets/soluçoes/soluções4.png"
   }
 ];
 
