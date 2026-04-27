@@ -5,20 +5,20 @@ import Solucoes from "./main/soluções"
 import Categorias from "./main/categorias"
 import Noticias from "./main/noticias"
 import ValenteMotors from "./main/valentemotors"
-function Main() {
+function Main({ lojas, solucoes, categorias, noticias }) {
     return (
         <main>
             <Imagem_main
             />
             <Seção_busca_main
             />
-            <Lojas_oficiais
+            <Lojas_oficiais lista={lojas}
             />
-            <Solucoes
+            <Solucoes lista={solucoes}
             />
-            <Categorias
+            <Categorias lista={categorias}
             />
-            <Noticias
+            <Noticias lista={noticias}
             />
             <ValenteMotors
             />
