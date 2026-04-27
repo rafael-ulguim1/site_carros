@@ -82,66 +82,66 @@ const noticiasDestaque = [
     id: 1,
     titulo: "Motos",
     descricao: "Confira as novas regras de segurança para condutores em 2026.",
-    imagemNoticia: "/src/assets/noticia1.jfif",
+    imagemNoticia: "/src/assets/noticiais/noticia1.jfif",
     categoria: "Motos",
     autor: {
       nome: "Ricardo Silva",
-      foto: "/src/assets/autores/perfil_news.png"
+      foto: "/src/assets/noticiais/perfil_news.png"
     }
   },
   {
     id: 2,
     titulo: "Ultimas notícias",
     descricao: "O compacto volta ao mercado com motor híbrido e design renovado.",
-    imagemNoticia: "/src/assets/noticia2.jpg",
+    imagemNoticia: "/src/assets/noticiais/noticia2.jpg",
     categoria: "Lançamentos",
     autor: {
       nome: "Ana Beatriz",
-      foto: "/src/assets/autores/perfil_news.png"
+      foto: "/src/assets/noticiais/perfil_news.png"
     }
   },
   {
     id: 3,
     titulo: "Ultimas notícias",
     descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-    imagemNoticia: "/src/assets/noticia3.jpg",
+    imagemNoticia: "/src/assets/noticiais/noticia3.jpg",
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/perfil_news.png"
+      foto: "/src/assets/noticiais/perfil_news.png"
     }
   },
   {
     id: 4,
     titulo: "Ultimas notícias",
     descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-    imagemNoticia: "/src/assets/noticia4.webp",
+    imagemNoticia: "/src/assets/noticiais/noticia4.webp",
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/perfil_news.png"
+      foto: "/src/assets/noticiais/perfil_news.png"
     }
   },
   {
     id: 5,
     titulo: "Ultimas notícias",
     descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-    imagemNoticia: "/src/assets/noticia5.jfif",
+    imagemNoticia: "/src/assets/noticiais/noticia5.jfif",
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/perfil_news.png"
+      foto: "/src/assets/noticiais/perfil_news.png"
     }
   },
   {
     id: 6,
     titulo: "Ultimas notícias",
     descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-    imagemNoticia: "/src/assets/noticia6.jfif",
+    imagemNoticia: "/src/assets/noticiais/noticia6.jfif",
     categoria: "Últimas Notícias",
     autor: {
       nome: "Marcos Paulo",
-      foto: "/src/assets/autores/perfil_news.png"
+      foto: "/src/assets/noticiais/perfil_news.png"
     }
   },
 
