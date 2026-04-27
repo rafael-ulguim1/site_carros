@@ -1,10 +1,10 @@
-import Imagem_main from "./imagem_main"
-import Seção_busca_main from "./seção_busca"
-import Lojas_oficiais from "./lojas_oficiais"
-import Solucoes from "./soluções"
-import Categorias from "./categorias"
-import Noticias from "./noticias"
-import ValenteMotors from "./valentemotors"
+import Imagem_main from "./main/imagem_main"
+import Seção_busca_main from "./main/seção_busca"
+import Lojas_oficiais from "./main/lojas_oficiais"
+import Solucoes from "./main/soluções"
+import Categorias from "./main/categorias"
+import Noticias from "./main/noticias"
+import ValenteMotors from "./main/valentemotors"
 function Main() {
     return (
         <main>

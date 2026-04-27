@@ -1,7 +1,7 @@
 import Header from "./components/header"
 import Main from "./components/main"
 import Footer from "./components/footer"
-import Imagem_main from "./components/imagem_main"
+import Imagem_main from "./components/main/imagem_main"
 import { useState } from "react"
 
 
