@@ -34,19 +34,26 @@ function Ofertas() {
 
             </section>
             <section className="flex justify-center" id="cards_estoque">
-                <div className="bg-white w-100 h-100 mt-50   ">
-                    <div className="flex flex-col">
-                        <img className=" " src="/src/assets/categorias/eletricos.jpg" />
-                        <p className="text-left ml-3 text-sm"> Moto </p>
-                        <p className="text-left ml-3 text-sm"> Ducati Monster 937 </p>
-                        <p className="text-left ml-3 text-sm"> Valor: 85000 </p>
-                        <p className="text-left ml-3 text-sm"> Design italiano, eletrônica de MotoGP, pura emoção</p>
-                        <p className="text-left ml-3 text-sm">KM: 2000 </p>
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {carros.map((carro) => (
+                        <div key={carro.id} className="bg-white w-100 h-100 mt-50   ">
+                            <div className="flex flex-col">
+                                <img className=" " src="/src/assets/categorias/eletricos.jpg" />
+                                <p className="text-left ml-3 text-sm"> {carro.tipo} </p>
+                                <p className="text-left ml-3 text-sm"> {carro.nome} 937 </p>
+                                <p className="text-left ml-3 text-sm"> {carro.preco}Valor: 85000 </p>
+                                <p className="text-left ml-3 text-sm"> {carro.descricao} Design italiano, eletrônica de MotoGP, pura emoção</p>
+                                <p className="text-left ml-3 text-sm">{carro.km} </p>
+                                <button className="w-full mt-4 bg-orange-500 text-white py-2 rounded-lg font-bold">
+                                    Ver Detalhes
+                                </button>
 
-                    </div>
+                            </div>
 
 
 
+                        </div>
+                    ))}
                 </div>
 
             </section>
