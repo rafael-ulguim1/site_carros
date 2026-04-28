@@ -1,4 +1,4 @@
-function Seção_busca_main() {
+function Seção_busca_main({ lista }) {
     return (
         <section id="busca" className="flex justify-center   ">
             <div className="bg-white h-72 w-250 flex flex-col gap-3 rounded shadow ">
@@ -22,7 +22,7 @@ function Seção_busca_main() {
 
                 </div>
                 <div className="flex-1 text-center mt-5">
-                    <button className="bg-red-500 h-10 w-70 text-white font-bold  rounded"> Ver todas as ofertas (400.000)</button>
+                    <button className="bg-red-500 h-10 w-70 text-white font-bold  rounded"> Ver todas as ofertas ({lista.length})</button>
 
                 </div>
 

@@ -8,7 +8,7 @@ function Footer() {
                 <p className="text-white text-sm font-bold"> Desenvolvido por Rafael Valente git:https://github.com/rafael-ulguim1/site_carros </p>
             </div>
             <div className="bg-red-500 flex justify-center h-20 items-center flex gap-4">
-                <img src="/src/assets/logo.png" className="h-15 ml-3  rounded-full"></img>
+                <img src="/src/assets/main/logo.png" className="h-15 ml-3  rounded-full"></img>
                 <p className="text-white text-sm font-bold"> ValenteMotors </p>
             </div>
 
