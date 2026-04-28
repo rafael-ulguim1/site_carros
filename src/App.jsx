@@ -8,6 +8,7 @@ import { categoriasCarros } from "./listas/listas"
 import { noticiasDestaque } from "./listas/listas"
 import { useState, useEffect } from "react"
 import Lojas_oficiais from "./components/main/lojas_oficiais"
+import Ofertas from "./pages/ofertas"
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div className="bg-gray-200">
+
       <Header />
       <Main
         lojas={lojas}
@@ -40,6 +42,7 @@ function App() {
         estoque={estoque}
       />
       <Footer />
+
 
     </div>
 
