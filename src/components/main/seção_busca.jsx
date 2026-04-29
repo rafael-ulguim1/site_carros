@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Seção_busca_main({ lista }) {
     return (
         <section id="busca" className="flex justify-center   ">
@@ -22,7 +24,11 @@ function Seção_busca_main({ lista }) {
 
                 </div>
                 <div className="flex-1 text-center mt-5">
-                    <button className="bg-red-500 h-10 w-70 text-white font-bold  rounded"> Ver todas as ofertas ({lista.length})</button>
+                    <Link to="/ofertas">
+                        <button className="bg-red-500 h-10 w-70 text-white font-bold  rounded">
+                            Ver todas as ofertas ({lista.length})
+                        </button>
+                    </Link>
 
                 </div>
 
