@@ -1,4 +1,4 @@
-export const Motos = [
+export const EstoqueMotos = [
     {
         id: 11,
         tipo: "moto",
@@ -82,6 +82,24 @@ export const Motos = [
     },
     {
         id: 20,
+        tipo: "moto",
+        nome: "Harley-Davidson Iron 883",
+        preco: 59000,
+        descricao: "Ícone custom, pintura fosca, som característico do motor V2.",
+        km: 18000,
+        imagem: "/src/assets/motos/iron883.jpg"
+    },
+    {
+        id: 21,
+        tipo: "moto",
+        nome: "Harley-Davidson Iron 883",
+        preco: 59000,
+        descricao: "Ícone custom, pintura fosca, som característico do motor V2.",
+        km: 18000,
+        imagem: "/src/assets/motos/iron883.jpg"
+    },
+    {
+        id: 22,
         tipo: "moto",
         nome: "Harley-Davidson Iron 883",
         preco: 59000,

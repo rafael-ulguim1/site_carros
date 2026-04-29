@@ -11,6 +11,8 @@ import {
 import { useState, useEffect } from "react"
 import Lojas_oficiais from "./components/main/lojas_oficiais"
 import Ofertas from "./pages/ofertas"
+import Motos from "./pages/motos"
+import Carros from "./pages/carros"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
@@ -56,6 +58,8 @@ function App() {
 
           {/* enviando a rota para o main */}
           <Route path="/ofertas" element={<Ofertas />} />
+          <Route path="/motos" element={<Motos />} />
+          <Route path="/carros" element={<Carros />} />
         </Routes>
 
         <Footer />

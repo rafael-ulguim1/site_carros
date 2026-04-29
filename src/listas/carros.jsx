@@ -1,4 +1,4 @@
-export const Carros = [
+export const EstoqueCarros = [
     {
         id: 1,
         tipo: "carro",
@@ -89,4 +89,22 @@ export const Carros = [
         km: 10500,
         imagem: "/src/assets/carros/ranger.jpg"
     },
-]
+    {
+        id: 9,
+        tipo: "carro",
+        nome: "BYD Dolphin EV",
+        preco: 149800,
+        descricao: "100% elétrico, autonomia excelente, tecnologia de ponta.",
+        km: 5000,
+        imagem: "/src/assets/carros/dolphin.jpg"
+    },
+    {
+        id: 10,
+        tipo: "carro",
+        nome: "Ford Ranger Limited",
+        preco: 285000,
+        descricao: "V6 Diesel, a picape mais tecnológica da categoria.",
+        km: 10500,
+        imagem: "/src/assets/carros/ranger.jpg"
+    },
+];

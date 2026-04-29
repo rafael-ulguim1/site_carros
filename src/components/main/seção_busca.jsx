@@ -11,8 +11,16 @@ function Seção_busca_main({ lista }) {
 
                 </div>
                 <div className=" ml-10 flex gap-4 font-bold">
-                    <button className="text-gray-100 bg-gray-700 rounded-full h-9 w-30"> Buscar carros</button>
-                    <button className="text-gray-100 bg-gray-700 rounded-full h-9 w-30"> Buscar motos</button>
+                    <Link to="/carros">
+                        <button className="text-gray-100 bg-gray-700 rounded-full h-9 w-30">
+                            Buscar carros
+                        </button>
+                    </Link >
+                    <Link to="/motos">
+                        <button className="text-gray-100 bg-gray-700 rounded-full h-9 w-30">
+                            Buscar motos
+                        </button>
+                    </Link>
 
                 </div>
                 <div className=" ml-10">

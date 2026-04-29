@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react"
-import { estoqueVeiculos } from "../listas/listas"
+import { EstoqueCarros } from "../listas/carros"
 
-function Ofertas() {
+function Carros() {
 
-    const [automoveis, setAutomoveis] = useState([])
+    const [carros, setCarros] = useState([])
 
     useEffect(() => {
-        setAutomoveis(estoqueVeiculos);
+        setCarros(EstoqueCarros);
     }, []);
 
     return (
@@ -14,12 +14,12 @@ function Ofertas() {
         <section id="ofertas">
             <section className="flex justify-center" id="cards_estoque">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {automoveis.map((carro) => (
+                    {carros.map((carro) => (
                         <div key={carro.id} className="bg-white w-100 h-100 mt-50   ">
                             <div className="flex flex-col">
                                 <img className=" " src="/src/assets/categorias/eletricos.jpg" />
                                 <p className="text-left ml-3 text-sm"> {carro.tipo} </p>
-                                <p className="text-left ml-3 text-sm"> {carro.nome}  </p>
+                                <p className="text-left ml-3 text-sm"> {carro.nome} </p>
                                 <p className="text-left ml-3 text-sm"> {carro.preco} </p>
                                 <p className="text-left ml-3 text-sm"> {carro.descricao} </p>
                                 <p className="text-left ml-3 text-sm">{carro.km} </p>
@@ -48,4 +48,4 @@ function Ofertas() {
 
 
 
-export default Ofertas
+export default Carros
