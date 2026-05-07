@@ -189,17 +189,17 @@ export const lojasOficiais = [
     {
         id: 1,
         nome: "Loja Matriz Centro",
-        imagem: "/src/assets/lojas/bmw.png"
+        imagem: "/lojas/bmw.png"
     },
     {
         id: 2,
         nome: "Loja Premium Shopping",
-        imagem: "/src/assets/lojas/honda.png"
+        imagem: "/lojas/honda.png"
     },
     {
         id: 3,
         nome: "Loja Seminovos Sul",
-        imagem: "/src/assets/lojas/yamaha.png"
+        imagem: "/lojas/yamaha.png"
     }
 ];
 
@@ -208,25 +208,25 @@ export const solucoesEmpresa = [
         id: 1,
         titulo: "Financiamento Facilitado",
         descricao: "as melhores taxas do mercado para você.",
-        imagem: "/src/assets/soluçoes/soluções1.jpg"
+        imagem: "/soluçoes/soluções1.jpg"
     },
     {
         id: 2,
         titulo: "Seguro Auto",
         descricao: " Opções de cobertura completa para sua total tranquilidade.",
-        imagem: "/src/assets/soluçoes/soluçoes2.png"
+        imagem: "/soluçoes/soluçoes2.png"
     },
     {
         id: 3,
         titulo: "Oficina Especializada",
         descricao: "profissionais certificados pela fábrica.",
-        imagem: "/src/assets/soluçoes/soluções3.png"
+        imagem: "/soluçoes/soluções3.png"
     },
     {
         id: 4,
         titulo: "Test-drive Premium",
         descricao: " conheça cada detalhe do seu futuro carro.",
-        imagem: "/src/assets/soluçoes/soluções4.png"
+        imagem: "/soluçoes/soluções4.png"
     }
 ];
 
@@ -234,27 +234,27 @@ export const categoriasCarros = [
     {
         id: 1,
         nome: "Elétricos",
-        imagem: "/src/assets/categorias/eletricos.jpg"
+        imagem: "/categorias/eletricos.jpg"
     },
     {
         id: 2,
         nome: "Hatches",
-        imagem: "/src/assets/categorias/hatches.jfif"
+        imagem: "/categorias/hatches.jfif"
     },
     {
         id: 3,
         nome: "Picapes",
-        imagem: "/src/assets/categorias/picapes.jpg"
+        imagem: "/categorias/picapes.jpg"
     },
     {
         id: 4,
         nome: "Sedans",
-        imagem: "/src/assets/categorias/sedans.jfif"
+        imagem: "/categorias/sedans.jfif"
     },
     {
         id: 5,
         nome: "Suvs",
-        imagem: "/src/assets/categorias/suvs.jfif"
+        imagem: "/categorias/suvs.jfif"
     }
 ];
 
@@ -263,66 +263,66 @@ export const noticiasDestaque = [
         id: 1,
         titulo: "Motos",
         descricao: "Confira as novas regras de segurança para condutores em 2026.",
-        imagemNoticia: "/src/assets/noticiais/noticia1.jfif",
+        imagemNoticia: "/noticias/noticia1.jfif",
         categoria: "Motos",
         autor: {
             nome: "Ricardo Silva",
-            foto: "/src/assets/noticiais/perfil_news.png"
+            foto: "/noticias/perfil_news.png"
         }
     },
     {
         id: 2,
         titulo: "Ultimas notícias",
         descricao: "O compacto volta ao mercado com motor híbrido e design renovado.",
-        imagemNoticia: "/src/assets/noticiais/noticia2.jpg",
+        imagemNoticia: "/noticias/noticia2.jpg",
         categoria: "Lançamentos",
         autor: {
             nome: "Ana Beatriz",
-            foto: "/src/assets/noticiais/perfil_news.png"
+            foto: "/noticias/perfil_news.png"
         }
     },
     {
         id: 3,
         titulo: "Ultimas notícias",
         descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-        imagemNoticia: "/src/assets/noticiais/noticia3.jpg",
+        imagemNoticia: "/noticias/noticia3.jpg",
         categoria: "Últimas Notícias",
         autor: {
             nome: "Marcos Paulo",
-            foto: "/src/assets/noticiais/perfil_news.png"
+            foto: "/noticias/perfil_news.png"
         }
     },
     {
         id: 4,
         titulo: "Ultimas notícias",
         descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-        imagemNoticia: "/src/assets/noticiais/noticia4.webp",
+        imagemNoticia: "/noticias/noticia4.webp",
         categoria: "Últimas Notícias",
         autor: {
             nome: "Marcos Paulo",
-            foto: "/src/assets/noticiais/perfil_news.png"
+            foto: "/noticias/perfil_news.png"
         }
     },
     {
         id: 5,
         titulo: "Ultimas notícias",
         descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-        imagemNoticia: "/src/assets/noticiais/noticia5.jfif",
+        imagemNoticia: "/noticias/noticia5.jfif",
         categoria: "Últimas Notícias",
         autor: {
             nome: "Marcos Paulo",
-            foto: "/src/assets/noticiais/perfil_news.png"
+            foto: "/noticias/perfil_news.png"
         }
     },
     {
         id: 6,
         titulo: "Ultimas notícias",
         descricao: "O gigante chinês chega para brigar com os veteranos do segmento.",
-        imagemNoticia: "/src/assets/noticiais/noticia6.jfif",
+        imagemNoticia: "/noticias/noticia6.jfif",
         categoria: "Últimas Notícias",
         autor: {
             nome: "Marcos Paulo",
-            foto: "/src/assets/noticiais/perfil_news.png"
+            foto: "/noticias/perfil_news.png"
         }
     },
 
