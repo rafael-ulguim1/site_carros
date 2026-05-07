@@ -1,5 +1,5 @@
 # SPA Automotiva (Webmotors Clone)
-[![Vercel](https://site-carros-ndgh8l41u-rafaelulguim123-4315s-projects.vercel.app)
+(https://site-carros-ndgh8l41u-rafaelulguim123-4315s-projects.vercel.app)
 
 Status:  Projeto em produção / Portfólio Principal
 
