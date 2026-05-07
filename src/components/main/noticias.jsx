@@ -1,37 +1,40 @@
 function Noticias({ lista }) {
     return (
         <section id="noticias">
-            <div className="flex ml-80">
+            {/* ml-80 convertido para ml-[320px] */}
+            <div className="flex ml-[320px]">
                 <h1 className="font-bold text-gray-600 text-xl"> Noticias </h1>
             </div>
 
-            <div className=" flex gap-3 mt-4 justify-center mb-7">
+            <div className="flex gap-3 mt-4 justify-center mb-7">
                 {lista.map((noticia) => (
                     <button
                         key={noticia.id}
-                        className="bg-white h-70 w-45 rounded-2xl border-1 border-gray-300 flex flex-col items-start"
+                        /* h-70 vira h-[280px] e w-45 vira w-[180px] */
+                        className="bg-white h-[280px] w-[180px] rounded-2xl border-[1px] border-gray-300 flex flex-col items-start overflow-hidden transition-transform hover:scale-105"
                     >
                         <img
                             src={noticia.imagemNoticia}
                             alt={noticia.titulo}
-                            className="w-45 h-40 object-cover"
+                            /* w-45 vira w-[180px] e h-40 vira h-[160px] */
+                            className="w-[180px] h-[160px] object-cover"
                         />
 
-                        <p className=" text-left ml-3 text-[11px] font-bold text-gray-600 ">
+                        <p className="text-left ml-3 text-[11px] font-bold text-gray-600 mt-2">
                             / {noticia.categoria}
                         </p>
 
-                        <p className=" text-left ml-3 text-sm">
+                        <p className="text-left ml-3 text-sm leading-tight pr-2">
                             {noticia.descricao}
                         </p>
 
-                        <div className="flex mt-6">
+                        <div className="flex items-center gap-2 mt-auto mb-3 ml-3">
                             <img
                                 src={noticia.autor.foto}
-                                className="h-8 w-8"
+                                className="h-8 w-8 rounded-full object-cover"
                                 alt="perfil"
                             />
-                            <p className="text-[11px]">
+                            <p className="text-[11px] text-gray-500">
                                 Por {noticia.autor.nome}
                             </p>
                         </div>

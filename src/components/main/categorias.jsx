@@ -1,7 +1,9 @@
 function Categorias({ lista }) {
     return (
         <section id="categorias" className="mt-10 flex justify-center flex-col">
-            <div className="flex ml-80">
+            {/* Dica: em vez de ml-80, que pode quebrar em telas menores, 
+                tente usar max-w e mx-auto no container pai no futuro */}
+            <div className="flex ml-[320px]">
                 <h1 className="font-bold text-gray-600 text-xl"> Categorias </h1>
             </div>
 
@@ -9,7 +11,8 @@ function Categorias({ lista }) {
                 {lista.map((categoria) => (
                     <button
                         key={categoria.id}
-                        className="bg-white h-55 w-54 rounded-2xl border-1 border-gray-300 transition-transform hover:scale-105 overflow-hidden"
+                        // Ajustado h-55 para h-[220px] e w-54 para w-[216px] (valores aproximados)
+                        className="bg-white h-[220px] w-[216px] rounded-2xl border-[1px] border-gray-300 transition-transform hover:scale-105 overflow-hidden"
                         style={{
                             backgroundImage: `url('${categoria.imagem}')`,
                             backgroundSize: 'cover',
@@ -18,8 +21,8 @@ function Categorias({ lista }) {
                         }}
                     >
                         <div className="flex-1 text-left ml-4 flex flex-col gap-2">
-                            {/* O nome da categoria agora é dinâmico e usamos o texto branco para contrastar com a imagem */}
-                            <h1 className="font-serif text-white text-2xl font-bold w-10 mt-30 leading-tight">
+                            {/* Ajustado mt-30 para mt-[120px] */}
+                            <h1 className="font-serif text-white text-2xl font-bold w-10 mt-[120px] leading-tight text-shadow-md">
                                 {categoria.nome}
                             </h1>
                         </div>
