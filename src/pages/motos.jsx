@@ -17,7 +17,7 @@ function Motos() {
                     {motos.map((moto) => (
                         <div key={moto.id} className="bg-white w-100 h-100 mt-50   ">
                             <div className="flex flex-col">
-                                <img className=" " src="/src/assets/categorias/eletricos.jpg" />
+                                <img className=" " src="/categorias/eletricos.jpg" />
                                 <p className="text-left ml-3 text-sm"> {moto.tipo} </p>
                                 <p className="text-left ml-3 text-sm"> {moto.nome}  </p>
                                 <p className="text-left ml-3 text-sm"> {moto.preco} </p>

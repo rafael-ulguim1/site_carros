@@ -208,7 +208,7 @@ export const solucoesEmpresa = [
         id: 1,
         titulo: "Financiamento Facilitado",
         descricao: "as melhores taxas do mercado para você.",
-        imagem: "/soluçoes/soluções1.jpg"
+        imagem: "/soluçoes/soluçoes.jpg"
     },
     {
         id: 2,
@@ -220,13 +220,13 @@ export const solucoesEmpresa = [
         id: 3,
         titulo: "Oficina Especializada",
         descricao: "profissionais certificados pela fábrica.",
-        imagem: "/soluçoes/soluções3.png"
+        imagem: "/soluçoes/soluçoes3.png"
     },
     {
         id: 4,
         titulo: "Test-drive Premium",
         descricao: " conheça cada detalhe do seu futuro carro.",
-        imagem: "/soluçoes/soluções4.png"
+        imagem: "/soluçoes/soluçoes4.png"
     }
 ];
 
